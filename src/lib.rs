@@ -18,7 +18,7 @@ mod dht;
 pub use dht::async_dht;
 
 pub use common::{
-    messages::{MessageType, PutRequestSpecific, RequestSpecific},
+    messages::{MessageType, PutRequestSpecific, RequestSpecific, RequestTypeSpecific},
     ClosestNodes, Id, MutableItem, Node, RoutingTable,
 };
 pub use core::server::{RequestFilter, ServerSettings, MAX_INFO_HASHES, MAX_PEERS, MAX_VALUES};
